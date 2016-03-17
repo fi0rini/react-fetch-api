@@ -42,11 +42,17 @@ const Fetch = (function () {
 
       this.__promise.then(this._renderResponse.bind(this), this._renderError.bind(this)).then(() => this.setState({loading: false}));
     }
-
+    
+    /* 
+     * Extend this method from subclass component
+     */
     _renderResponse(r) {
       return null;
     }
-
+    
+    /* 
+     * Extend this method from subclass component
+     */
     _renderError(e) {
       return null;
     }
