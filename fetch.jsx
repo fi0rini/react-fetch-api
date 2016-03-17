@@ -56,7 +56,7 @@ const Fetch = (function () {
       const display =
         loading ? <div> loading... </div> :
         error ? <div> ERROR </div> :
-        this.__response
+        this.__renderedResponse
 
       return <div> {display} </div>;
     }

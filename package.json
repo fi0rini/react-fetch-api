@@ -1,5 +1,5 @@
 {
-  "name": "react-fetch-render",
+  "name": "react-fetch-api",
   "version": "1.0.0",
   "description": "react component used for fetching data from a remote api",
   "main": "fetch.js",
